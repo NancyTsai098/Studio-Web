@@ -82,12 +82,14 @@ nav div a {
 
 #content a:hover {
     background-color: rgba(47, 81, 112, 0);
+    color: black;
+
 }
 
 /* 按扭區塊 */
 #button {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 #button a {
@@ -99,13 +101,12 @@ nav div a {
     display: inline-block;
 }
 
-#button a.button-mr {
-    margin-right: 100px;
+#button a .button-mr {
+    margin-right: 200px;
 }
 
 #button a:hover {
     background-color: rgba(47, 81, 112, 0);
-    color: black;
 
 }
 
