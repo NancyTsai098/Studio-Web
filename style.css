@@ -27,27 +27,33 @@ body, html {
 #box {
     /* background-color: rgba(255, 0, 0, 0.3); */
     height: 500px;
-    width: 900px;
+    width: 80%;
     /* 外距：上 右 下 左 */
     margin: 20px auto 0 auto;
+    padding: 100px;
 }
 
 /* 導覽列區塊 */
 #logo {
     /* 字體大小 fz2e */
     font-size: 2em;
+    color: rgba(47, 81, 112, 1); 
 }
 
-nav a {
+
+#nav-link {
     /* 邊框底部 bdb */
     border-bottom: 1.5px solid #fff;
     /* 內距 p */
     padding: 7px 10px;
+    color: rgba(47, 81, 112, 1); 
 }
 
 /* hover 滑入 */
 nav a:hover {
     background-color: rgba(47, 81, 112, 0.4);
+    color:#ffff; 
+
 }
 
 a {
@@ -101,8 +107,8 @@ nav div a {
     display: inline-block;
 }
 
-#button a .button-mr {
-    margin-right: 200px;
+#button a.button-mr {
+    margin-right: 100px;
 }
 
 #button a:hover {
@@ -122,4 +128,24 @@ footer {
     text-align: center;
     /* 行高與高度相同：垂直至中，僅限一行內容 */
     line-height: 60px;
+}
+
+/* about */
+#about{
+    width:700px;
+    height:500px;
+    background-image: url("https://images.unsplash.com/photo-1527005980469-e172416c200b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
+    block-size: cover;
+    margin: 5% auto 0 auto;
+    border: solid 25px #fff;
+    border-radius: 10px;
+    box-shadow: 30px 30px 10px rgba(0,0,0, 0.2);
+
+    text-shadow: 5px 5px 5px rgba(0,0,0, 0.2);
+    text-align: center;
+    line-height: 500px;
+}
+
+#about h3{
+    color: black;
 }
